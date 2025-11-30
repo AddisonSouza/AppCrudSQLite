@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/edtNome" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Nome"/>
+        <EditText android:id="@+id/edtCpf" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="CPF"/>
+        <EditText android:id="@+id/edtTelefone" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Telefone"/>
+        <EditText android:id="@+id/edtEmail" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Email"/>
+        <EditText android:id="@+id/edtEndereco" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Endereço"/>
+        <Button android:id="@+id/btnSave" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Salvar" android:layout_marginTop="12dp"/>
+    </LinearLayout>
+</ScrollView>
