@@ -1,15 +1,72 @@
+# =============== ANDROID / GRADLE ===============
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+.gradle/
+build/
+**/build/
+
+# NDK / CMake
+.cxx/
+.externalNativeBuild/
+
+# =============== ANDROID STUDIO ===============
+.idea/
+!.idea/codeStyles/
+!.idea/runConfigurations/
+
+# =============== SISTEMA OPERACIONAL ===============
+# macOS
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# =============== LOGS / DEBUG ===============
+*.log
+*.stacktrace
+*.hprof
+
+# =============== BINÁRIOS / PACKAGES ===============
+*.apk
+*.ap_
+*.aab
+*.dex
+*.so
+*.jar
+*.war
+*.class
+
+# =============== LOCAL PROPERTIES ===============
 local.properties
+
+# Firebase / Google Services
+google-services.json
+google-services.plist
+
+# =============== GRADLE WRAPPER ===============
+# Mantém o wrapper, mas ignora cache
+gradle-app.setting
+gradle-app.setting.lock
+
+# =============== KOTLIN / JAVA ===============
+out/
+*/out/
+
+# =============== CAPTURES ===============
+captures/
+
+# =============== MISC ===============
+*.keystore
+*.jks
+
+# IntelliJ crashes
+idea.log
+
+# =============== VCS ===============
+*.orig
